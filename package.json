@@ -1,0 +1,22 @@
+{
+  "name": "projectmanagement",
+  "version": "1.0.0",
+  "description": "This is Project Management app",
+  "keywords": [
+    "Backend",
+    "Nodejs",
+    "Javascript",
+    "project",
+    "projectmanagement"
+  ],
+  "license": "ISC",
+  "author": "Dipak Khare",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
