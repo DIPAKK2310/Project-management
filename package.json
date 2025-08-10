@@ -11,12 +11,17 @@
   ],
   "license": "ISC",
   "author": "Dipak Khare",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "devDependencies": {
+    "nodemon": "^3.1.10",
     "prettier": "3.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1"
   }
 }
