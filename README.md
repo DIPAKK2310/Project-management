@@ -29,6 +29,7 @@ ProjectManagement /
 ```
 
 <h3>2. Install dependencies :</h3>
+  a) Backend 
 
 ```bash
 cd backend
@@ -36,6 +37,18 @@ npm install
 # or
 yarn install
 ```
+
+b) Frontend 
+ 
+ ```bash
+ cd Frontend
+ npm install
+ # or
+ yarn install
+ ```
+
+
+
 <h3>3. Environment Variables</h3>
 
 Create a `.env` file in the `server/` directory:
